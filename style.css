@@ -1,0 +1,157 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    background-color:deepskyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    color: black; 
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 30px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black; 
+    font-size: 17px;
+    font-weight: bolder;
+    transition: color 0.3s; 
+}
+.main_img
+{
+    width:100%;
+    height:450px;
+}
+
+.img_text{
+    position:absolute;
+    top:30%;
+    left: 30%;
+    color: white;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 28px;
+}
+.welcome_img
+{
+  width:80%;
+  height: 150px;  
+}
+.container 
+{
+    padding-top: 30px;
+}
+.teacher
+{
+    width: 80%;
+    height:150px ;
+}
+.label_text
+{
+    display: inline-block;
+    width: 100px;
+    text-align:right;
+    padding-right: 10px;
+}
+.input_deg
+{
+    width: 30%;
+    height: 40px;
+    
+    border-radius: 5px;
+    border: 1px solid blue ;
+}
+.adm_int
+{
+  padding-top: 10px;  
+}
+.input_txt
+{
+    width: 30%;
+    height: 120px;
+    border-radius: 30px;
+    border: 1px solid blue ;
+}
+#submit
+{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+
+.adm
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form_deg {
+    padding-top: 200px;
+}
+
+.label_deg {
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login_form {
+    background-color: black;
+    width: 400px;
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.title_deg {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.body_deg {
+    background-image: url('briko.jpeg'); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%; 
+    height: 100vh;
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
